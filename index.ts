@@ -14,7 +14,7 @@ function buildCookies(cookies: Record<string, string>) {
 		.join("; ");
 }
 
-class HttpClient {
+export class HttpClient {
 	cookies: Record<string, string> = {};
 	headers: Record<string, string>;
 	jar: boolean;
